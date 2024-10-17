@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  mlflow-tracking-server:
+  - apiVersion: v2
+    appVersion: 2.17.0
+    created: "2024-10-17T05:24:45.331905476Z"
+    dependencies:
+    - name: common
+      repository: https://kharkevich.github.io/helm-generic/
+      version: 2.1.0
+    description: A Helm chart for MlFlow Tracking Server
+    digest: 2ec9283508c572fc79fb1c97368f02765cc84fafea71efb84246b8431ce7f95a
+    home: https://github.com/kharkevich/helm
+    icon: https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg
+    maintainers:
+    - email: alex@kharkevich.org
+      name: Alexander Kharkevich
+    name: mlflow-tracking-server
+    sources:
+    - https://github.com/kharkevich/helm
+    - https://github.com/kharkevich/mlflow-tracking-server
+    type: application
+    urls:
+    - https://github.com/kharkevich/helm/releases/download/mlflow-tracking-server-1.0.0/mlflow-tracking-server-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-17T05:24:45.331937295Z"
