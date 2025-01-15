@@ -3,6 +3,27 @@ entries:
   github-app-jwt2token-controller:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-01-15T05:42:53.431955858Z"
+    dependencies:
+    - name: common
+      repository: https://kharkevich.github.io/helm-generic/
+      version: 2.1.1
+    description: GitHub App JWT to Token Kubernetes Controller
+    digest: 659e543c9a837f8f7c212db938eb9ba5f6a8332dbf16b620427fdb3e999b31c8
+    home: https://github.com/kharkevich/helm
+    maintainers:
+    - email: alex@kharkevich.org
+      name: Alexander Kharkevich
+    name: github-app-jwt2token-controller
+    sources:
+    - https://github.com/kharkevich/helm
+    - https://github.com/kharkevich/github-app-jwt2token-controller
+    type: application
+    urls:
+    - https://github.com/kharkevich/helm/releases/download/github-app-jwt2token-controller-1.0.1/github-app-jwt2token-controller-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-01-15T05:30:31.135222126Z"
     dependencies:
     - name: common
@@ -45,4 +66,4 @@ entries:
     urls:
     - https://github.com/kharkevich/helm/releases/download/mlflow-tracking-server-1.0.0/mlflow-tracking-server-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-15T05:30:31.135231774Z"
+generated: "2025-01-15T05:42:53.431964725Z"
